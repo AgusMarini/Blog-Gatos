@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="suscripcion.html">
+    <title>Contacto</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1> Blog de Gatos</h1>
+        </header>
+
+        <nav>
+            <div class="navbar">
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a class="contacto" href="Contacto.html">Contacto</a></li>
+                <li><a class="suscripcion" href="suscripcion.html">Suscripcion</a></li>
+            </ul>
+            </div>
+        </nav>
+        <div class="clear"></div>
+        <section id="Contenido">
+            <article class="article">
+                <p>Cuentanos que te parecio este blog</p>
+
+            </article>
+        </section>
+    <form class="form"   action="https://formspree.io/f/xlekjvjy"
+    method="POST">
+        <div class="form_container">
+            <h2 class="form_title">Contactame</h2>
+            <input type="text" class="form_input" placeholder="Nombre:" name="name">
+            <input type="email" class="form_input" placeholder="Email:" name="email">
+            <textarea class="form_input form_input--message" placeholder="Mensaje" name="message"></textarea>
+
+            <input type="submit" value="Enviar" class="form_cta">
+        </div>
+    </form>
+    
+</body>
+</html>
